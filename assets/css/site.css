@@ -1,0 +1,95 @@
+@font-face {
+    font-family: myanmar3;
+    src: url("../Myanmar3.ttf");
+}
+body,html{
+    background-color: #e8eaed;
+    font-family: 'Raleway', sans-serif;
+}
+.photo{    
+    border-radius: 50%;
+    border:black solid 3px;
+    width:200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+.photo-wrapper{
+    margin-top: 5px;
+    height: 100%;
+}
+.introl-text-wrapper{
+    margin-top: 45px;
+    height: 100px;
+    margin-left:5%; 
+    color:white;    
+}
+.site-bar{
+    width: 100%;
+    height:250px;
+}
+.info{
+   width:100%;
+   position: absolute;
+}
+.menu li{
+    padding: 3px;
+}
+.site-body{
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;    
+    font-size: 18px;
+}
+.personanl-info{
+    width:100%;
+    background-color: #f4f6f9;
+    padding: 25px;
+    box-shadow: 0 5px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    display: inline-block;
+}
+.contact{
+    color: black;
+    padding: 5px;
+    font-size: 25px;
+}
+.contact :hover{
+    color:black;
+}
+.skillset{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.skillset dt{
+    text-align: left;
+    float: left;
+    width: 30%;
+}
+.skillset dd{
+    float: left;
+    width: 70%;
+}
+.gotopbtn{
+    font-weight: 300;
+    color:black;
+    border: 1px solid rgb(14, 100, 239);
+}
+
+.site-footer{
+    border-bottom: 1px solid black;
+    width:100%;
+    height: 15px;
+    text-align: "center";
+    margin-bottom: 20px;
+}
+.site-footer-text{
+    position: absolute;
+    font-size:13px;
+    color:#305a99;
+    height: 17px; 
+    margin-top: 5px;
+    background-color: #e8eaed;
+}

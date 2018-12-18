@@ -1,16 +1,188 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-        <meta charset="utf-8">
-    <title>        
-        Myo Zaw Latt(official)        
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Myo Zaw Latt
     </title>
-    <link rel="shortcut icon" type="image/png" href="images/boy.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="images/titleimg.png">
+    <link rel="stylesheet" href="assets/bootstrap-4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/site.css">
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+    <style>
+    </style>
 </head>
+
 <body>
-    <h2 style="margin:20% 20% 20% 40%">
-        <i>Site Under Construction</i>
-    </h2>
+    <div class="container">
+        <div class="card">
+            <div id="particles-js" class="site-bar" style="background-image: url('images/sitebar.jpg');">
+                <div class="info">
+                    <div class="col-md-12">
+                        <div class="introl-text-wrapper">
+                            <h3>Myo Zaw Latt</h3>
+                            <span id="introText"></span>
+                        </div>
+                    </div>
+                    <div class="photo-wrapper col-md-12">
+                        <img src="images/mzl.jpg" alt="my pthotho" class="photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12" style="margin-top:120px;">
+            <div class="d-flex justify-content-center">
+                <ul class="nav menu">
+                    <li class="nav-item"><a class="btn btn-sm btn-outline-primary" href="index.html">[Home]</a>&nbsp;|</li>
+                    <li class="nav-item"><a class="btn btn-sm btn-outline-primary" href="https://github.com/myozawlatt" target="_blank">[Github]</a>&nbsp;|</li>
+                    <li class="nav-item"><a class="btn btn-sm btn-outline-primary" href="#projects">[Projects]</a>&nbsp;|</li>
+                    <li class="nav-item"><a class="btn btn-sm btn-outline-primary" href="#contacts">[Contact]</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="site-body">
+            <div class="personanl-info">
+                <h3><b>[ About me ]</b></h3>
+                <hr>
+                <h5> "Mingalaba"</h4>
+                    <br>
+                    <p style="padding-left: 5px;">
+                        This is Myo Zaw Latt. I am an asp.net developer and currently works at <a href="http://acedatasystems.com/"
+                            target="_blank">ACE Data Systems</a>, Myanmar.
+                        I like to code back-end development rather than front-end. I am writing mvc applications for a
+                        while.
+                        I am interested in Python, PHP, ASP.NET Core, Android and learning front-end technolgies such
+                        as
+                        CSS, Javascript
+                        (Vanilla, Jquery, React, Vue). I got a Guardian rank at Dota 2 and I am a hard core fan of Big
+                        Bag and Game
+                        of Thrones.
+                    </p>
+            </div>
+            <div class="personanl-info">
+                <h3><b>[ Skill Sets ]</b></h3>
+                <hr>
+                <dl class="skillset">
+                    <dt>Back-end</dt>
+                    <dd>C#, MSSQL Server, ASP.NET Classic Webform, MVC, Entity Framework, XML</dd>
+                    <dt>Front-end</dt>
+                    <dd>HTML5, CSS, Javascript, Bootstap 4, Jquery, Ajax</dd>
+                    <dt>Tools</dt>
+                    <dd>Visual Studio, VS Code </dd>
+                </dl>
+            </div>
+            <div class="personanl-info"  id="projects">
+                <h3><b>[ My projects ]</b></h3>
+                <hr>
+                I am not upload any of my projects to github yet. Sorry :( xD
+                <br>
+                I will update the list asap.
+            </div>
+            <div class="personanl-info"  id="contacts">
+                <h3><b>[ Contact me ]</b></h3>
+                <hr>
+                <a href="https://www.twitter.com/myozawlatt_mzl" target="_blank" class="contact"> <span  class="fab fa-twitter-square"></span>twitter</a>
+                <a href="https://www.linkedin.com/in/myozawlatt/" target="_blank" class="contact"><span  class="fab fa-linkedin"></span>linkedin</a>
+                <a href="mailto:myozaw550@gmail.com" class="contact"><span  class="fas fa-envelope-square"></span>email</a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <br>
+            <button type="button" onclick="goTop()" class="btn btn-sm gotopbtn" width="50px">
+                ^ Go Top
+            </button>
+        </div>
+        <div class="site-footer d-flex justify-content-center">
+            <span class="site-footer-text">
+                &copy;mzl@2018
+            </span>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/particles.min.js"></script>
+    <script type="text/javascript" src="assets/js/typed.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131099125-1"></script>
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131099125-1');
+        function goTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        var typed = new Typed('#introText', {
+            strings: ['A full stack web developer. Making things better'],
+            typeSpeed: 65,
+            backSpeed: 0,
+            cursorChar: "_",
+            shuffle: false,
+            smartBackspace: false,
+            loop: true
+        });
+        particlesJS("particles-js",
+            {
+                "particles": {
+                    "number": {
+                        "value": 50,
+                        "density": { "enable": true, "value_area": 640.9588744762158 }
+                    },
+                    "color": { "value": "#ffffff" },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": { "width": 0, "color": "#000000" },
+                        "polygon": { "nb_sides": 8 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false }
+                    },
+                    "size": {
+                        "value": 5,
+                        "random": true,
+                        "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false }
+                    },
+                    "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 2 },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false, "out_mode":
+                            "out", "bounce": false,
+                        "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas", "events": {
+                        "onhover": { "enable": false, "mode": "repulse" },
+                        "onclick": { "enable": false, "mode": "push" }, "resize": true
+                    }, "modes": {
+                        "grab": { "distance": 107.8921078921079, "line_linked": { "opacity": 1 } },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 91.9080919080919,
+                            "duration": 6.553446553446554,
+                            "opacity": 8, "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 663.3366633366633,
+                            "duration": 0.4
+                        },
+                        "push": { "particles_nb": 4 },
+                        "remove": { "particles_nb": 2 }
+                    }
+                }, "retina_detect": true
+            });
+
+    </script>
 </body>
+
 </html>
