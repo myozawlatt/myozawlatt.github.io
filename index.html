@@ -7,7 +7,7 @@
     <title>
         Myo Zaw Latt
     </title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="images/titleimg.png">
     <link rel="stylesheet" href="assets/bootstrap-4.1.3/css/bootstrap.min.css">
@@ -15,10 +15,36 @@
     <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="assets/bootstrap-4.1.3/js/bootstrap.min.js"></script>
     <style>
+
     </style>
 </head>
+<style>
+    body {
+        font-family: 'Tangerine', serif;
+        background-color: black;
+    }
+    
+    .uppertext {
+        font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
+        color: white;
+        margin-left: 35%;
+        margin-top: 10%;
+    }
+    
+    .lowertext {
+        font-size: 35px;
+        text-shadow: 4px 4px 4px #aaa;
+        color: white;
+        margin-left: 45%;
+    }
+</style>
 
 <body>
+    <p class="uppertext">This site is under maintaince.</p>
+    <p class="lowertext">Will be back soon.</p>
+</body>
+<!-- <body>
     <div>
         <div class="card">
             <div id="particles-js" class="site-bar" style="background-image: url('images/sitebar.jpg');">
@@ -53,16 +79,9 @@
                 <h5> "Mingalaba"</h4>
                     <br>
                     <p style="padding-left: 5px;">
-                        This is Myo Zaw Latt. I am an asp.net developer and currently works at <a href="http://acedatasystems.com/"
-                            target="_blank">ACE Data Systems</a>, Myanmar.
-                        I like to code back-end development rather than front-end. I am writing mvc applications for a
-                        while.
-                        I am interested in Python, PHP, ASP.NET Core, Android and learning front-end technolgies such
-                        as
-                        CSS, Javascript
-                        (Vanilla, Jquery, React, Vue). I got a Guardian rank at Dota 2 and I am a hard core fan of Big
-                        Bag and Game
-                        of Thrones.
+                        This is Myo Zaw Latt. I am an asp.net developer and currently works at <a href="http://acedatasystems.com/" target="_blank">ACE Data Systems</a>, Myanmar. I like to code back-end development rather than front-end. I am writing
+                        mvc applications for a while. I am interested in Python, PHP, ASP.NET Core, Android and learning front-end technolgies such as CSS, Javascript (Vanilla, Jquery, React, Vue). I got a Guardian rank at Dota 2 and I am a hard core
+                        fan of Big Bag and Game of Thrones.
                     </p>
             </div>
             <div class="personanl-info">
@@ -77,27 +96,25 @@
                     <dd>Visual Studio, VS Code </dd>
                 </dl>
             </div>
-            <div class="personanl-info"  id="projects">
+            <div class="personanl-info" id="projects">
                 <h3><b>[ My projects ]</b></h3>
-                <hr>
-                I do not upload any of my projects to github yet. Sorry :( xD
-                <br>
-                I will update the list asap.
+                <hr> I do not upload any of my projects to github yet. Sorry :( xD
+                <br> I will update the list asap.
             </div>
-            <div class="personanl-info"  id="contacts">
+            <div class="personanl-info" id="contacts">
                 <h3><b>[ Contact me ]</b></h3>
                 <hr>
-                <a href="https://www.twitter.com/myozawlatt_mzl" target="_blank" class="contact"> <span  class="fab fa-twitter-square"></span>twitter</a>
+                <a href="https://www.twitter.com/myozawlatt_mzl" target="_blank" class="contact"> <span class="fab fa-twitter-square"></span>twitter</a>
                 <a href="https://www.linkedin.com/in/myozawlatt/" target="_blank" class="contact"><span  class="fab fa-linkedin"></span>linkedin</a>
                 <a href="mailto:myozaw550@gmail.com" class="contact"><span  class="fas fa-envelope-square"></span>email</a>
             </div>
             <div class="d-flex justify-content-end">
-                    <br>
-                    <button type="button" onclick="goTop()" class="btn btn-sm gotopbtn" width="50px">
+                <br>
+                <button type="button" onclick="goTop()" class="btn btn-sm gotopbtn" width="50px">
                         ^ Go Top
                     </button>
-                </div>
-        </div>        
+            </div>
+        </div>
         <div class="site-footer d-flex justify-content-center">
             <span class="site-footer-text">
                 &copy;mzl@2018
@@ -109,10 +126,14 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131099125-1"></script>
     <script type="text/javascript">
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-131099125-1');
+
         function goTop() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
@@ -126,63 +147,117 @@
             smartBackspace: false,
             loop: true
         });
-        particlesJS("particles-js",
-            {
-                "particles": {
-                    "number": {
-                        "value": 50,
-                        "density": { "enable": true, "value_area": 640.9588744762158 }
-                    },
-                    "color": { "value": "#ffffff" },
-                    "shape": {
-                        "type": "circle",
-                        "stroke": { "width": 0, "color": "#000000" },
-                        "polygon": { "nb_sides": 8 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 }
-                    },
-                    "opacity": {
-                        "value": 0.5,
-                        "random": false,
-                        "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false }
-                    },
-                    "size": {
-                        "value": 5,
-                        "random": true,
-                        "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false }
-                    },
-                    "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 2 },
-                    "move": {
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 50,
+                    "density": {
                         "enable": true,
-                        "speed": 6,
-                        "direction": "none",
-                        "random": false,
-                        "straight": false, "out_mode":
-                            "out", "bounce": false,
-                        "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 }
+                        "value_area": 640.9588744762158
                     }
                 },
-                "interactivity": {
-                    "detect_on": "canvas", "events": {
-                        "onhover": { "enable": false, "mode": "repulse" },
-                        "onclick": { "enable": false, "mode": "push" }, "resize": true
-                    }, "modes": {
-                        "grab": { "distance": 107.8921078921079, "line_linked": { "opacity": 1 } },
-                        "bubble": {
-                            "distance": 400,
-                            "size": 91.9080919080919,
-                            "duration": 6.553446553446554,
-                            "opacity": 8, "speed": 3
-                        },
-                        "repulse": {
-                            "distance": 663.3366633366633,
-                            "duration": 0.4
-                        },
-                        "push": { "particles_nb": 4 },
-                        "remove": { "particles_nb": 2 }
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 8
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
                     }
-                }, "retina_detect": true
-            });
-
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 2
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": false,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": false,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 107.8921078921079,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 91.9080919080919,
+                        "duration": 6.553446553446554,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 663.3366633366633,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
     </script>
-</body>
+</body> -->
 
 </html>
